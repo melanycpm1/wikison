@@ -61,6 +61,15 @@ class Personaje {
     }
 }
 
+function guardarPersonajes(personajes) {
+    localStorage.setItem('personajes', JSON.stringify(personajes));
+}
+
+function cargarPersonajes() {
+    const data = localStorage.getItem('personajes');
+    return data ? JSON.parse(data) : [];
+}
+
 async function main() {
     let data;
     try {

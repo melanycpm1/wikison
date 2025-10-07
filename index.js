@@ -70,6 +70,32 @@ function cargarPersonajes() {
     return data ? JSON.parse(data) : [];
 }
 
+function renderPersonajes(personajes, contenedor) {
+    contenedor.innerHTML = '';
+    personajes.forEach(p => {
+        const div = document.createElement('div');
+        div.classList.add('personaje-card');
+        div.innerHTML = `
+            <img src="${p.img}" alt="${p.nombre}">
+            ${new Personaje(p.nombre, p.rol, p.caracteristica, p.img, p.frases).mostrarInfo()}
+        `;
+        contenedor.appendChild(div);
+    });
+}
+
+function renderLugares(lugares, contenedor) {
+    contenedor.innerHTML = '';
+    lugares.forEach(l => {
+        const div = document.createElement('div');
+        div.classList.add('lugar-card');
+        div.innerHTML = `
+            <img src="${l.img}" alt="${l.nombre}">
+            <h3>${l.nombre}</h3>
+        `;
+        contenedor.appendChild(div);
+    });
+}   
+
 async function main() {
     let data;
     try {

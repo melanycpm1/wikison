@@ -7,7 +7,7 @@ async function main() {
     } catch (error) {
         console.log(`Error al obtener los datos:${error}`)
     }
-    
+
     if(data){
         try {
             //querySelector
@@ -19,16 +19,18 @@ async function main() {
             nav.appendChild(div);
             div.appendChild(ul);
 
-
-            //obtencion de keys
             let arrayKey= Object.keys(data);
 
-
-            arrayKey.forEach(key => {
+            for (let index = 0; index < arrayKey.length + 1; index++) {
                 let li=document.createElement("li");
-                li.innerHTML=`<a href="#${key}">${key}</a>`;
+                if (index==arrayKey.length) {
+                    li.innerHTML='<i class="fa-solid fa-heart"></i>'
+                }else{
+                    let key=arrayKey[index];
+                    li.innerHTML=`<a href="#${key}">${key}</a>`;
+                }
                 ul.appendChild(li);
-            });
+            }
 
 
         } catch (error) {

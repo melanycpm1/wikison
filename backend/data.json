@@ -1,0 +1,1080 @@
+{
+  "lugares": [
+    {
+      "img": "./assets/lugares/742_de_Evergreen_Terrace.jpg",
+      "nombre:": "742 de Evergreen Terrace"
+    },
+    {
+      "img": "./assets/lugares/la_taberna_moe.jpg",
+      "nombre": "La Taberna de Moe"
+    },
+    {
+      "img": "./assets/lugares/la_planta_springfield.jpg",
+      "nombre": "La Planta Nuclear de Springfield"
+    },
+    {
+      "img": "./assets/lugares/la_escuela_Primaria_de_springfield.jpg",
+      "nombre": "La Escuela Primaria de Springfield"
+    },
+    {
+      "img": "./assets/lugares/kwik_e_mart.jpg",
+      "nombre": "Kwik-E-Mart"
+    },
+    {
+      "img": "./assets/lugares/la_mansión_del_sr_burns.jpg",
+      "nombre": "La Mansión del Sr. Burns"
+    },
+    {
+      "img": "./assets/lugares/iglesia.jpg",
+      "nombre": "La Iglesia de Springfield"
+    },
+    {
+      "img": "./assets/lugares/ayuntamiento.jpg",
+      "nombre": "El Ayuntamiento"
+    },
+    {
+      "img": "./assets/lugares/hospital.jpg",
+      "nombre": "El Hospital de Springfield"
+    },
+    {
+      "img": "./assets/lugares/parque.jpg",
+      "nombre": "El Parque de Springfield"
+    },
+    {
+      "img": "./assets/lugares/estadio.jpg",
+      "nombre": "El Estadio Duff"
+    },
+    {
+      "img": "./assets/lugares/asilo.jpg",
+      "nombre": "La Casa del Abuelo"
+    },
+    {
+      "img": "./assets/lugares/krusty_burger.jpg",
+      "nombre": "krusty burger"
+    }
+  ],
+  "pelicula": {
+    "pais": "Estados Unidos",
+    "guion": [
+      "James L. Brooks",
+      "Matt Groening",
+      "Al Jean",
+      "Ian Maxtone-Graham",
+      "David Mirkin",
+      "Mike Reiss",
+      "Matt Selman",
+      "John Swartzwelder",
+      "Jon Vitti"
+    ],
+    "genero": [
+      "Animación",
+      "Comedia",
+      "Aventura",
+      "Sátira"
+    ],
+    "musica": "Hans Zimmer",
+    "titulo": "Los Simpson: La Película",
+    "premios": {
+      "ganados": [
+        "Premio Empire a Mejor Película Animada (2008)"
+      ],
+      "nominaciones": [
+        "Premio BAFTA a Mejor Película Animada (2008)",
+        "Annie Award a Mejor Guion (2008)"
+      ]
+    },
+    "sinopsis": "Después de que Homero contamina accidentalmente el lago de Springfield, la Agencia de Protección Ambiental sella la ciudad bajo una enorme cúpula. Los Simpson deben huir y luego decidir si regresan para salvar a su hogar y a sus amigos.",
+    "direccion": "David Silverman",
+    "productora": "Gracie Films en asociación con 20th Century Fox Animation",
+    "añoEstreno": 2007,
+    "recaudacion": {
+      "detalle": {
+        "eeuu": 183135014,
+        "internacional": 353268000
+      },
+      "presupuesto": 75000000,
+      "taquillaMundial": 536400000
+    },
+    "curiosidades": [
+      "El proyecto tardó casi 18 años en concretarse desde que se propuso la idea original.",
+      "Hans Zimmer compuso la banda sonora inspirándose en el tema clásico de Danny Elfman.",
+      "El personaje de Spider-Cerdo (o Puerco Araña) se convirtió en un ícono cultural tras el estreno.",
+      "Matt Groening declaró que querían que la película se sintiera como un episodio 'elevado' pero no un reinicio de la serie."
+    ],
+    "fechaEstreno": {
+      "eeuu": "27 de julio de 2007",
+      "españa": "27 de julio de 2007",
+      "latinoamerica": "26 de julio de 2007"
+    },
+    "clasificacion": "PG-13",
+    "frasesIconicas": [
+      "¡Puerco Araña, Puerco Araña!",
+      "¡Yo no fui!",
+      "¡Lisa, no toques eso! ¡Está irradiado!",
+      "Marge, no me voy a disculpar. ¡Yo salvé al mundo, lo sé!"
+    ],
+    "idiomaOriginal": "Inglés",
+    "tituloOriginal": "The Simpsons Movie",
+    "duracionMinutos": 87,
+    "lugaresDestacados": [
+      "Springfield",
+      "El Lago de Springfield",
+      "Cúpula del EPA",
+      "Alaska",
+      "Casa de los Simpson"
+    ],
+    "calificacionCritica": {
+      "imdb": "7.3/10",
+      "metacritic": "80/100",
+      "rottenTomatoes": "87%"
+    },
+    "antagonistaPrincipal": "Russ Cargill",
+    "personajesPrincipales": [
+      "Homero Simpson",
+      "Marge Simpson",
+      "Bart Simpson",
+      "Lisa Simpson",
+      "Maggie Simpson"
+    ],
+    "participacionesEspeciales": [
+      "Green Day (como ellos mismos)",
+      "Tom Hanks (voz invitada)"
+    ]
+  },
+  "creadores": {
+    "historia": "Los Simpson se originaron como cortos en 'The Tracey Ullman Show' en 1987 y fueron desarrollados como una serie completa por Matt Groening en 1989, con la producción de James L. Brooks y Sam Simon.",
+    "curiosidades": [
+      "Matt Groening nombró a los personajes principales por miembros de su propia familia.",
+      "Sam Simon fue clave en definir el tono satírico y el desarrollo de personajes.",
+      "David Silverman ha dirigido más de 100 episodios y la película de Los Simpson.",
+      "James L. Brooks ganó múltiples premios Emmy como productor ejecutivo de la serie."
+    ],
+    "creadorPrincipal": {
+      "img": "./assets/creadores/matt_grening.jpg",
+      "nombre": "Matt Groening",
+      "profesion": [
+        "Caricaturista",
+        "Guionista",
+        "Productor"
+      ],
+      "nacimiento": "15 de febrero de 1954",
+      "rolesEnLaSerie": [
+        "Creador de la serie",
+        "Diseñador de personajes",
+        "Productor ejecutivo"
+      ],
+      "lugarNacimiento": "Portland, Oregón, Estados Unidos",
+      "obrasAdicionales": [
+        "Life in Hell",
+        "Futurama",
+        "Disenchantment"
+      ]
+    },
+    "productoresPrincipales": [
+      {
+        "img": "./assets/creadores/james_brooks.jpg",
+        "nombre": "James L. Brooks",
+        "profesion": [
+          "Guionista",
+          "Director",
+          "Productor"
+        ],
+        "nacimiento": "9 de mayo de 1940",
+        "rolesEnLaSerie": [
+          "Productor ejecutivo",
+          "Guionista"
+        ],
+        "obrasAdicionales": [
+          "Broadcast News",
+          "As Good as It Gets"
+        ]
+      },
+      {
+        "img": "/assets/creadores/sam_simon.jpg",
+        "nombre": "Sam Simon",
+        "profesion": [
+          "Guionista",
+          "Productor",
+          "Director"
+        ],
+        "nacimiento": "6 de junio de 1955",
+        "fallecimiento": "8 de abril de 2015",
+        "rolesEnLaSerie": [
+          "Productor ejecutivo",
+          "Guionista"
+        ],
+        "obrasAdicionales": [
+          "The Simpsons (co-creador)",
+          "Taxi"
+        ]
+      },
+      {
+        "img": "./assets/creadores/ai_jean.jpeg",
+        "nombre": "Al Jean",
+        "profesion": [
+          "Guionista",
+          "Productor"
+        ],
+        "nacimiento": "9 de enero de 1961",
+        "rolesEnLaSerie": [
+          "Productor ejecutivo",
+          "Showrunner en múltiples temporadas"
+        ],
+        "obrasAdicionales": [
+          "The Tonight Show",
+          "The Critic"
+        ]
+      },
+      {
+        "img": "./assets/creadores/mike_reis.jpeg",
+        "nombre": "Mike Reiss",
+        "profesion": [
+          "Guionista",
+          "Productor"
+        ],
+        "nacimiento": "15 de enero de 1959",
+        "rolesEnLaSerie": [
+          "Guionista principal",
+          "Productor"
+        ],
+        "obrasAdicionales": [
+          "The Critic",
+          "Queer Duck"
+        ]
+      },
+      {
+        "img": "./assets/creadores/david_silverman.jpg",
+        "nombre": "David Silverman",
+        "profesion": [
+          "Animador",
+          "Director",
+          "Productor"
+        ],
+        "nacimiento": "15 de marzo de 1957",
+        "rolesEnLaSerie": [
+          "Director de animación",
+          "Director de episodios y la película"
+        ],
+        "obrasAdicionales": [
+          "The Simpsons Movie",
+          "Monsters, Inc. (animación supervisora)"
+        ]
+      }
+    ],
+    "premiosYReconocimientos": [
+      "31 Premios Emmy de la serie hasta 2023",
+      "Premio Peabody 1996",
+      "Premio BAFTA a Mejor Serie Animada 2002"
+    ]
+  },
+  "personajes": [
+    {
+      "img": "./assets/personajes/homero.jpg",
+      "rol": "Padre de familia",
+      "frases": [
+        "¡D'oh!",
+        "¡Mmm... rosquillas!",
+        "¡Pequeño demonio!",
+        "Intentar es el primer paso hacia el fracaso.",
+        "En la vida hay tres cosas seguras: la muerte, los impuestos y que           en algún momento te vas a olvidar de tu contraseña.",
+        "Hijo, si algo es difícil, no vale la pena hacerlo.",
+        "¡Operadora! Deme el número para el 911."
+      ],
+      "nombre": "Homero Simpson",
+      "caracteristica": "Amante de la cerveza y las rosquillas"
+    },
+    {
+      "img": "./assets/personajes/marge.jpg",
+      "rol": "Madre de familia",
+      "frases": [
+        "Homero...",
+        "Creo que deberíamos hablar de esto, Homero.",
+        "Homero, ¿estás seguro de esto?",
+        "Recuerda, la familia es lo más importante."
+      ],
+      "nombre": "Marge Simpson",
+      "caracteristica": "Cabello azul y gran paciencia"
+    },
+    {
+      "img": "./assets/personajes/bart.jpg",
+      "rol": "Hijo travieso",
+      "frases": [
+        "¡Ay caramba!",
+        "¡No fui yo!",
+        "Come mi calzón.",
+        "¡Cowabunga!",
+        "No me tengo que portar bien, yo ya hice mi primera comunión."
+      ],
+      "nombre": "Bart Simpson",
+      "caracteristica": "Amante del skate y las bromas"
+    },
+    {
+      "img": "./assets/personajes/lisa.jpg",
+      "rol": "Hija inteligente",
+      "frases": [
+        "Si alguien me necesita, estaré en mi habitación.",
+        "Sólo porque no me importe, no significa que no entienda.",
+        "¡Es injusto! ¿Por qué las cosas malas siempre le pasan a las personas inocentes… como yo?",
+        "La música es lo que me hace seguir adelante."
+      ],
+      "nombre": "Lisa Simpson",
+      "caracteristica": "Saxofonista y activista"
+    },
+    {
+      "img": "./assets/personajes/maggie.jpg",
+      "rol": "Bebé",
+      "frases": [
+        "Papá",
+        "Ja ja",
+        "Querido hermanito",
+        "No más chupones",
+        "Yo soy la que disparó al Sr. Burns",
+        "Papi"
+      ],
+      "nombre": "Maggie Simpson",
+      "caracteristica": "Siempre con su chupete"
+    },
+    {
+      "img": "./assets/personajes/ned.jpg",
+      "rol": "Vecino",
+      "frases": [
+        "¡Hola, vecinillo!",
+        "Okily dokily!",
+        "Santidad didilidón.",
+        "¡Ay caramba didilí!",
+        "Sufrí didili-duda.",
+        "No hay problema, vecinillo.",
+        "La Biblia lo dice, y punto."
+      ],
+      "nombre": "Ned Flanders",
+      "caracteristica": "Excesivamente amable y religioso"
+    },
+    {
+      "img": "./assets/personajes/sr_burns.jpg",
+      "rol": "Dueño de la planta nuclear",
+      "frases": [
+        "Excelente...",
+        "Liberen a los perros."
+      ],
+      "nombre": "Sr. Burns",
+      "caracteristica": "Extremadamente rico y malvado"
+    },
+    {
+      "img": "./assets/personajes/milhouse.jpg",
+      "rol": "Mejor amigo de Bart",
+      "frases": [
+        "¡Todo sale Milhouse!",
+        "¡Soy un niño de verdad!"
+      ],
+      "nombre": "Milhouse Van Houten",
+      "caracteristica": "Tímido y enamorado de Lisa"
+    },
+    {
+      "img": "./assets/personajes/moe.jpg",
+      "rol": "Cantinero",
+      "frases": [
+        "¡Barney, sal de ahí, eso no es una piscina, es la freidora!"
+      ],
+      "nombre": "Moe Szyslak",
+      "caracteristica": "Dueño de la Taberna de Moe, cascarrabias"
+    },
+    {
+      "img": "./assets/personajes/apu.jpg",
+      "rol": "Dependiente del Kwik-E-Mart",
+      "frases": [
+        "¡Gracias, vuelva prontos!",
+        "Por favor, vuelva prontos."
+      ],
+      "nombre": "Apu Nahasapeemapetilon",
+      "caracteristica": "Conocido por la frase '¡Gracias, vuelva pronto!'"
+    },
+    {
+      "img": "./assets/personajes/krusty.jpg",
+      "rol": "Payaso de televisión",
+      "frases": [
+        "¡Hey, hey, niños!",
+        "No olviden comprar, comprar y comprar."
+      ],
+      "nombre": "Krusty el Payaso",
+      "caracteristica": "Famoso en Springfield, pero amargado fuera de cámaras"
+    },
+    {
+      "img": "./assets/personajes/ralph.jpg",
+      "rol": "Compañero de Bart",
+      "frases": [
+        "Yo choqué el auto del autobús escolar.",
+        "¡Me gusta el choo-choo!",
+        "¡Yo huelo a gasolina!",
+        "Mi gato respira mi aliento."
+      ],
+      "nombre": "Ralph Wiggum",
+      "caracteristica": "Ingenuo y con frases inocentes"
+    },
+    {
+      "img": "./assets/personajes/gorgory.jpg",
+      "rol": "Jefe de policía",
+      "frases": [
+        "¡Vamos a almorzar, muchachos!",
+        "¿Qué, no tengo derecho a equivocarme 20 o 30 veces?",
+        "No se preocupen, tenemos todo bajo control... creo.",
+        "Liberen a los perros... digo, a los policías.",
+        "¡Deténgase! … o no, como quiera.",
+        "Esto me da hambre."
+      ],
+      "nombre": "Jefe Gorgory",
+      "caracteristica": "Torpe pero bonachón"
+    },
+    {
+      "img": "./assets/personajes/skinner.jpg",
+      "rol": "Director de la Escuela Primaria",
+      "frases": [
+        "¡Patético!",
+        "Aurélio, esto no es Vietnam, esto es la escuela primaria. Aquí tenemos reglas.",
+        "¡Superintendente Chalmers! ¡Qué sorpresa!",
+        "No, madre… es, eh, vapor, vapor de jamón.",
+        "Bart Simpson, venga a la oficina… otra vez.",
+        "¡Silencio! ¡Esto no es una democracia, es una dictadura escolar!"
+      ],
+      "nombre": "Seymour Skinner",
+      "caracteristica": "Autoritario y reprimido por su madre"
+    },
+    {
+      "img": "./assets/personajes/edna.jpg",
+      "rol": "Maestra de Bart",
+      "frases": [
+        "¡Bart Simpson!",
+        "¿De verdad esperaban que yo corrigiera todos esos exámenes? Ja-ja-jaaa.",
+        "Esto no es una guardería, es la escuela primaria… aunque a veces no se note.",
+        "La vida es una farsa… y yo soy la encargada de enseñársela.",
+        "No me pagan lo suficiente para esto.",
+        "“Ha-ha-haaa…"
+      ],
+      "nombre": "Edna Krabappel",
+      "caracteristica": "Sarcástica y fumadora empedernida"
+    },
+    {
+      "img": "./assets/personajes/abraham.jpg",
+      "rol": "Abuelo",
+      "frases": [
+        "“¡En mi época…!",
+        "¡Lo que sea, estoy cansado de quejarme!",
+        "¡Me están robando los pantalones!",
+        "¡No me gusta el nuevo cajero del banco, es demasiado joven!",
+        "¡Me duermo! Zzz…",
+        "¡Y así fue como inventamos la palabra ‘caramba’!",
+        "¡Estoy viejo y no me importa!"
+      ],
+      "nombre": "Abraham Simpson",
+      "caracteristica": "Viejo y lleno de historias interminables"
+    },
+    {
+      "img": "./assets/personajes/patty.jpg",
+      "rol": "Hermana de Marge",
+      "frases": [
+        "Homero es un cero a la izquierda, Marge.",
+        "Si no fuera por ese idiota, tendrías una vida mejor.",
+        "Los hombres sólo traen problemas… y mal aliento",
+        "No necesito un marido para ser feliz… necesito un cigarrillo.",
+        "Marge, ¿de verdad crees que Homero vale la pena?"
+      ],
+      "nombre": "Patty Bouvier",
+      "caracteristica": "Cínica y fumadora, poco fan de Homero"
+    },
+    {
+      "img": "./assets/personajes/selma.jpg",
+      "rol": "Hermana de Marge",
+      "frases": [
+        "Necesito un hombre… cualquiera que respire me sirve.",
+        "Otro cigarrillo, otra desilusión.",
+        "Homero es un lastre, Marge. No sé cómo lo aguantás.",
+        "He tenido más matrimonios fallidos que citas exitosas.",
+        "El amor apesta, pero todavía lo sigo buscando.",
+        "Los hombres vienen y van… pero los cigarrillos siempre están ahí."
+      ],
+      "nombre": "Selma Bouvier",
+      "caracteristica": "Similar a Patty, pero busca pareja constantemente"
+    },
+    {
+      "img": "./assets/personajes/smither.jpg",
+      "rol": "Asistente del Sr. Burns",
+      "frases": [
+        "Lo que usted diga, señor Burns.",
+        "¡Excelente idea, señor Burns!",
+        "Estoy a sus órdenes, señor.",
+        "El señor Burns siempre tiene la razón.",
+        "Haré lo que sea por usted, señor Burns.",
+        "Su seguridad es mi prioridad, señor."
+      ],
+      "nombre": "Waylon Smithers",
+      "caracteristica": "Fiel, servicial y secretamente enamorado de su jefe"
+    },
+    {
+      "img": "./assets/personajes/barney.jpg",
+      "rol": "Amigo de Homero",
+      "frases": [
+        "¡Burp… otra cerveza, por favor!",
+        "Homero, eres mi mejor amigo… creo.",
+        "¡La vida es mejor con cerveza!",
+        "No me acuerdo de nada… pero me divierto",
+        "¡Brindemos por los amigos que nunca tuve!",
+        "¡D’oh! Otra vez bebí de más."
+      ],
+      "nombre": "Barney Gumble",
+      "caracteristica": "Borracho habitual de la Taberna de Moe"
+    },
+    {
+      "img": "./assets/personajes/lenny.jpg",
+      "rol": "Compañero de Homero en la Planta Nuclear",
+      "frases": [
+        "Carl, ¿me ayudas con esto?",
+        "¡Hola, Homero!",
+        "No estoy seguro, pero suena bien.",
+        "¡Eso estuvo increíble, Homero!",
+        "No sé qué haría sin mi amigo Carl.",
+        "¿Planta Nuclear otra vez? ¡Genial!"
+      ],
+      "nombre": "Lenny Leonard",
+      "caracteristica": "Mejor amigo de Carl, ingenuo y simpático"
+    },
+    {
+      "img": "./assets/personajes/carl.jpg",
+      "rol": "Compañero de Homero en la Planta Nuclear",
+      "frases": [
+        "Tranquilo, Lenny, todo bajo control.",
+        "Homero, esto no es buena idea…",
+        "Yo sólo hago mi trabajo, amigo.",
+        "Eso fue… interesante.",
+        "¡Salud por otra ronda de trabajo!",
+        "No te preocupes, Lenny, siempre hay solución."
+      ],
+      "nombre": "Carl Carlson",
+      "caracteristica": "Mejor amigo de Lenny, más racional"
+    },
+    {
+      "img": "./assets/personajes/otto.jpg",
+      "rol": "Conductor del autobús escolar",
+      "frases": [
+        "¡Vamos a rockear, chicos!",
+        "La escuela es para los aburridos.",
+        "¡Sujétense, que esto va rápido!",
+        "Nada como un buen solo de guitarra mientras conduzco.",
+        "Homero, ¿tienes cerveza para el viaje?",
+        "La música es la respuesta a todo."
+      ],
+      "nombre": "Otto Mann",
+      "caracteristica": "Fanático del rock y relajado"
+    },
+    {
+      "img": "./assets/personajes/nelson.jpg",
+      "rol": "Matón de la escuela",
+      "frases": [
+        "¡Ja ja",
+        "Dile a tu mamá que me debe dinero",
+        "No me importa lo que digas, te voy a molestar igual.",
+        "¡Corre, cobarde!",
+        "Esos son mis zapatos ahora",
+        "Si no te gusta, es tu problema."
+      ],
+      "nombre": "Nelson Muntz",
+      "caracteristica": "Famoso por su risa burlona '¡Ja ja!'"
+    },
+    {
+      "img": "./assets/personajes/jimbo.jpg",
+      "rol": "Matón de la escuela",
+      "frases": [
+        "¡Oye, Simpson, prepárate!",
+        "Nelson, tú y yo sabemos cómo manejar esto.",
+        "No me importa lo que digan los adultos.",
+        "Vamos a hacerles una broma a esos tontos.",
+        "Si no te gusta, pelea conmigo.",
+        "¡Ja ja, mira eso!"
+      ],
+      "nombre": "Jimbo Jones",
+      "caracteristica": "Siempre con gorro y en pandilla"
+    },
+    {
+      "img": "./assets/personajes/willie.jpg",
+      "rol": "Conserje de la escuela",
+      "frases": [
+        "¡Malditos niños traviesos!",
+        "¡Voy a limpiar esto con fuego, caramba!",
+        "¡Escocia es el país más duro del mundo!",
+        "¡Bart Simpson, ven aquí ahora!",
+        "¡Nadie toca mis plantas, maldita sea!",
+        "¡Voy a usar la pala, y no dudaré en hacerlo!"
+      ],
+      "nombre": "Groundskeeper Willie",
+      "caracteristica": "Escocés fuerte y temperamental"
+    },
+    {
+      "img": "./assets/personajes/alienigenas.jpg",
+      "rol": "Alienígenas",
+      "frases": [
+        "¡Invadiremos la Tierra!",
+        "Humano, tus cerebros son deliciosos.",
+        "Resistan… o serán eliminados.",
+        "Nosotros observamos todo desde el espacio.",
+        "Prepárense para la conquista intergaláctica.",
+        "¡Zorg… Zorg… cuidado con los humanos!"
+      ],
+      "nombre": "Kang y Kodos",
+      "caracteristica": "Aparecen en episodios especiales de Halloween"
+    },
+    {
+      "img": "./assets/personajes/lionel.jpg",
+      "rol": "Abogado",
+      "frases": [
+        "Yo podría estar equivocado, pero si lo estoy, ¿no sería la primera vez que alguien gana un juicio estando equivocado?",
+        "¿Ética profesional? Uh… ¿podría deletreármelo?",
+        "Hutz, abogado. No cobro hasta que ganemos… ¡y ya ganamos!"
+      ],
+      "nombre": "Lionel Hutz",
+      "caracteristica": "Inepto, corrupto y muy cómico"
+    },
+    {
+      "img": "./assets/personajes/Hibbert.jpg",
+      "rol": "Médico de Springfield",
+      "frases": [
+        "Je, je, je… bueno, al menos no está muerto. Todavía.",
+        "Si ríe cuando da malas noticias, la gente no se asusta tanto. Je, je, je.",
+        "Bueno, eso explica por qué sangra por los ojos. Aunque no por qué huele a pan tostado.",
+        "No soy mago, solo un médico… aunque con suerte, el resultado será el mismo. Je, je, je."
+      ],
+      "nombre": "Doctor Hibbert",
+      "caracteristica": "Siempre se ríe en situaciones inapropiadas"
+    },
+    {
+      "img": "./assets/personajes/dorctor_nick.jpg",
+      "rol": "Médico incompetente",
+      "frases": [
+        "¡Hola, doctor Nick!",
+        "¡Hola, a todos!",
+        "Recuerden: si el dolor persiste, es que algo está funcionando.",
+        "Inyectar… ¿qué era esto? Ah, no importa.",
+        "No se preocupen, tengo un diploma… creo."
+      ],
+      "nombre": "Doctor Nick Riviera",
+      "caracteristica": "Conocido por su saludo '¡Hola, doctor Nick!'"
+    },
+    {
+      "img": "./assets/personajes/kent.jpg",
+      "rol": "Presentador de noticias",
+      "frases": [
+        "Y así es como terminó el mundo… con un bostezo, no con una explosión.",
+        "Yo, por mi parte, doy la bienvenida a nuestros nuevos amos insectoides.",
+        "Esta podría ser la peor catástrofe en la historia de la humanidad… pero primero, el clima."
+      ],
+      "nombre": "Kent Brockman",
+      "caracteristica": "Periodista sensacionalista"
+    }
+  ],
+  "temporadas": [
+    {
+      "notas": "Incluye el primer episodio: 'Simpsons Roasting on an Open Fire'.",
+      "decada": "1980s",
+      "posicion": 30,
+      "episodios": 13,
+      "temporada": 1,
+      "descripcion": "La familia Simpson debutó en su propia serie luego de aparecer en The Tracey Ullman Show.",
+      "ultimaEmision": "13 de mayo de 1990",
+      "primeraEmision": "17 de diciembre de 1989",
+      "audienciaPromedio": 13.4
+    },
+    {
+      "notas": "Incluye el episodio 'Bart Gets an F', uno de los más vistos de la serie.",
+      "decada": "1990s",
+      "posicion": 38,
+      "episodios": 22,
+      " temporada": 2,
+      "descripcion": "Se consolidan los personajes secundarios y se explora la vida familiar de Springfield.",
+      "ultimaEmision": "11 de julio de 1991",
+      "primeraEmision": "11 de octubre de 1990",
+      "audienciaPromedio": 12.2
+    },
+    {
+      "notas": "Incluye el clásico 'Homer at the Bat'.",
+      "decada": "1990s",
+      "posicion": 33,
+      "episodios": 24,
+      "temporada": 3,
+      "descripcion": "Aumenta la calidad de la animación y el humor se vuelve más agudo.",
+      "ultimaEmisio": "27 de agosto de 1992",
+      "primeraEmision": "19 de septiembre de 1991",
+      "audienciaPromedio": 12
+    },
+    {
+      "notas": "Contiene 'Marge vs. the Monorail' y 'Last Exit to Springfield'.",
+      "decada": "1990s",
+      "posicion": 30,
+      "episodios": 22,
+      "temporada": 4,
+      "descripcion": "Considerada una de las mejores temporadas, con humor inteligente y sátira social.",
+      "ultimaEmision": "13 de mayo de 1993",
+      "primeraEmision": "24 de septiembre de 1992",
+      "audienciaPromedio": 12.1
+    },
+    {
+      "notas": "Incluye 'Cape Feare' y 'Deep Space Homer'.",
+      "decada": "1990s",
+      "posicion": 53,
+      "episodios": 22,
+      "temporada": 5,
+      "descripcion": "La serie alcanza su madurez creativa con episodios memorables.",
+      "ultimaEmision": "19 de mayo de 1994",
+      "primeraEmision": "30 de septiembre de 1993",
+      "audienciaPromedio": 10.5
+    },
+    {
+      "notas": "Finaliza con el mítico '¿Quién disparó al Sr. Burns? (Parte 1)'.",
+      "decada": "1990s",
+      "posicion": 67,
+      "episodios": 25,
+      "temporada": 6,
+      "descripcion": "Inicio de la era dorada de la serie.",
+      "ultimaEmision": "21 de mayo de 1995",
+      "primeraEmision": "4 de septiembre de 1994",
+      "audienciaPromedio": 9
+    },
+    {
+      "notas": "Episodio destacado: 'Lisa the Vegetarian'.",
+      "decada": "1990s",
+      "posicion": 75,
+      "episodios": 25,
+      "temporada": 7,
+      "descripcion": "Continúa la historia del Sr. Burns y se profundizan los personajes secundarios.",
+      "ultimaEmision": "19 de mayo de 1996",
+      "primeraEmision": "17 de septiembre de 1995",
+      "audienciaPromedio": 8
+    },
+    {
+      "notas": "Incluye 'You Only Move Twice' con Hank Scorpio.",
+      "decada": "1990s",
+      "posicion": 53,
+      "episodios": 25,
+      "temporada": 8,
+      "descripcion": "Combina sátira, humor absurdo y referencias culturales.",
+      "ultimaEmision": "18 de mayo de 1997",
+      "primeraEmision": "27 de octubre de 1996",
+      "audienciaPromedio": 8.6
+    },
+    {
+      "notas": "Contiene el controvertido 'The Principal and the Pauper'.",
+      "decada": "1990s",
+      "posicion": 30,
+      "episodios": 25,
+      "temporada": 9,
+      "descripcion": "Cambios en el tono y experimentación con nuevas historias.",
+      "ultimaEmision": "17 de mayo de 1998",
+      "primeraEmision": "21 de septiembre de 1997",
+      "audienciaPromedio": 9.1
+    },
+    {
+      "notas": "Incluye 'Lisa Gets an A' y 'Thirty Minutes Over Tokyo'.",
+      "decada": "1990s",
+      "posicion": 46,
+      "episodios": 23,
+      "temporada": 10,
+      "descripcion": "La serie comienza a enfocarse más en el humor surrealista.",
+      "ultimaEmision": "16 de mayo de 1999",
+      "primeraEmision": "23 de agosto de 1998",
+      "audienciaPromedio": 7.9
+    },
+    {
+      "notas": "Incluye 'Behind the Laughter' y 'E-I-E-I-(Annoyed Grunt)'.",
+      "decada": "1990s",
+      "posicion": 44,
+      "episodios": 22,
+      "temporada": 11,
+      "descripcion": "Introducción de tramas más extravagantes y estilo más caricaturesco.",
+      "ultimaEmision": "21 de mayo de 2000",
+      "primeraEmision": "26 de septiembre de 1999",
+      "audienciaPromedio": 8.2
+    },
+    {
+      "notas": "Contiene 'Trilogy of Error' y 'HOMR'.",
+      "decada": "2000s",
+      "posicion": 21,
+      "episodios": 21,
+      "temporada": 12,
+      "descripcion": "Temporada con humor más absurdo pero aún con crítica social.",
+      "ultimaEmision": "20 de mayo de 2001",
+      "primeraEmision": "1 de noviembre de 2000",
+      "audienciaPromedio": 14.7
+    },
+    {
+      "notas": "Incluye 'She of Little Faith' y 'Blame It on Lisa'.",
+      "decada": "2000s",
+      "posicion": 30,
+      "episodios": 22,
+      "temporada": 13,
+      "descripcion": "Se nota una renovación en la animación y ritmo de los episodios.",
+      "ultimaEmision": "22 de mayo de 2002",
+      "primeraEmision": "6 de noviembre de 2001",
+      "audienciaPromedio": 12.4
+    },
+    {
+      "notas": "Episodios destacados: 'C.E. D'oh' y 'Three Gays of the Condo'.",
+      "decada": "2000s",
+      "posicion": 25,
+      "episodios": 22,
+      "temporada": 14,
+      "descripcion": "Primera temporada animada digitalmente por completo.",
+      "ultimaEmision": "18 de mayo de 2003",
+      "primeraEmision": "3 de noviembre de 2002",
+      "audienciaPromedio": 13.4
+    },
+    {
+      "notas": "Incluye 'The Regina Monologues' y 'Marge vs. Singles, Seniors, Childless Couples and Teens, and Gays'.",
+      "decada": "2000s",
+      "posicion": 42,
+      "episodios": 22,
+      "temporada": 15,
+      "descripcion": "Sátira política y referencias culturales más modernas.",
+      "ultimaEmision": "23 de mayo de 2004",
+      "primeraEmision": "2 de noviembre de 2003",
+      "audienciaPromedio": 10.6
+    },
+    {
+      "notas": "Incluye 'Sleeping with the Enemy' y 'The Heartbroke Kid'.",
+      "decada": "2000s",
+      "posicion": 52,
+      "episodios": 21,
+      "temporada": 16,
+      "descripcion": "Transición hacia un humor más autorreferencial.",
+      "ultimaEmision": "15 de mayo de 2005",
+      "primeraEmision": "7 de noviembre de 2004",
+      "audienciaPromedio": 9.6
+    },
+    {
+      "notas": "Incluye 'The Seemingly Never-Ending Story' y 'Girls Just Want to Have Sums'.",
+      "decada": "2000s",
+      "posicion": 62,
+      "episodios": 22,
+      "temporada": 17,
+      "descripcion": "Comienza la era HD y tramas más experimentales.",
+      "ultimaEmision": "21 de mayo de 2006",
+      "primeraEmision": "11 de septiembre de 2005",
+      "audienciaPromedio": 9.1
+    },
+    {
+      "notas": "Incluye 'The Haw-Hawed Couple' y '24 Minutes'.",
+      "decada": "2000s",
+      "posicion": 60,
+      "episodios": 22,
+      "temporada": 18,
+      "descripcion": "Previo al estreno de la película, mantiene una mezcla entre crítica y humor absurdo.",
+      "ultimaEmision": "20 de mayo de 2007",
+      "primeraEmision": "10 de septiembre de 2006",
+      "audienciaPromedio": 8.6
+    },
+    {
+      "notas": "Incluye 'Eternal Moonshine of the Simpson Mind'.",
+      "decada": "2000s",
+      "posicion": 87,
+      "episodios": 20,
+      "temporada": 19,
+      "descripcion": "Primera temporada tras 'The Simpsons Movie'.",
+      "ultimaEmision": "18 de mayo de 2008",
+      "primeraEmision": "23 de septiembre de 2007",
+      "audienciaPromedio": 8
+    },
+    {
+      "notas": "Incluye el episodio 20x10 'Take My Life, Please', el primero totalmente en HD.",
+      "decada": "2000s",
+      "posicion": 77,
+      "episodios": 21,
+      "temporada": 20,
+      "descripcion": "Celebración del 20.º aniversario de la serie.",
+      "ultimaEmision": "17 de mayo de 2009",
+      "primeraEmision": "28 de septiembre de 2008",
+      "audienciaPromedio": 6.9
+    },
+    {
+      "notas": "Incluye 'Homer the Whopper' y 'The Squirt and the Whale'.",
+      "decada": "2010s",
+      " posicion": 61,
+      "episodios": 23,
+      "temporada": 21,
+      "descripcion": "Época moderna con episodios que abordan temas contemporáneos.",
+      "ultimaEmision": "23 de mayo de 2010",
+      "primeraEmision": "27 de septiembre de 2009",
+      "audienciaPromedio": 7.2
+    },
+    {
+      "notas": "Incluye 'The Fool Monty' y 'Homer Scissorhands'.",
+      "decada": "2010s",
+      "posicion": 65,
+      "episodios": 22,
+      "temporada": 22,
+      "descripcion": "Se mantienen los temas sociales y la crítica cultural.",
+      "ultimaEmision": "22 de mayo de 2011",
+      "primeraEmision": "26 de septiembre de 2010",
+      "audienciaPromedio": 7.3
+    },
+    {
+      "notas": "Incluye el episodio 500, 'At Long Last Leave'.",
+      "decada": "2010s",
+      "posicion": 69,
+      "episodios": 22,
+      "temporada": 23,
+      "descripcion": "Se celebran más de 500 episodios.",
+      "ultimaEmision": "20 de mayo de 2012",
+      "primeraEmision": "25 de septiembre de 2011",
+      "audienciaPromedio": 7
+    },
+    {
+      "notas": "Incluye 'Homer Goes to Prep School' y 'Treehouse of Horror XXIII'.",
+      "decada": "2010s",
+      "posicion": 70,
+      "episodios": 22,
+      "temporada": 24,
+      "descripcion": "Evolución en el formato y en la narrativa visual.",
+      "ultimaEmision": "19 de mayo de 2013",
+      "primeraEmision": "30 de septiembre de 2012",
+      "audienciaPromedio": 6.3
+    },
+    {
+      "notas": "Incluye 'Brick Like Me', episodio LEGO.",
+      "decada": "2010s",
+      "posicion": 81,
+      "episodios": 22,
+      "temporada": 25,
+      "descripcion": "El humor se mezcla con homenajes y nostalgia.",
+      "ultimaEmision": "18 de mayo de 2014",
+      "primeraEmision": "29 de septiembre de 2013",
+      "audienciaPromedio": 5.6
+    },
+    {
+      "notas": "Incluye 'Clown in the Dumps'.",
+      "decada": "2010s",
+      "posicion": 100,
+      "episodios": 22,
+      "temporada": 26,
+      "descripcion": "Se despide un personaje importante: el actor Edna Krabappel.",
+      "ultimaEmision": "17 de mayo de 2015",
+      "primeraEmision": "28 de septiembre de 2014",
+      "audienciaPromedio": 5.6
+    },
+    {
+      "notas": "Incluye 'Halloween of Horror' y 'Barthood'.",
+      "decada": "2010s",
+      "posicion": 102,
+      "episodios": 22,
+      "temporada": 27,
+      "descripcion": "Los Simpson celebran 600 episodios y continúan su legado televisivo.",
+      "ultimaEmision": "22 de mayo de 2016",
+      "primeraEmision": "27 de septiembre de 2015",
+      "audienciaPromedio": 4.7
+    },
+    {
+      "notas": "Incluye 'The Caper Chase' y 'Fatzcarraldo'.",
+      "decada": "2010s",
+      "posicion": 92,
+      "episodios": 22,
+      "temporada": 28,
+      "descripcion": "Se introducen cambios visuales y participaciones de celebridades.",
+      "ultimaEmision": "21 de mayo de 2017",
+      "primeraEmision": "25 de septiembre de 2016",
+      "audienciaPromedio": 4.8
+    },
+    {
+      "notas": "Incluye 'Gone Boy' y 'Lisa Gets the Blues'.",
+      "decada": "2010s",
+      "posicion": 122,
+      "episodios": 21,
+      "temporada": 29,
+      "descripcion": "Reflexiones meta sobre la longevidad de la serie.",
+      "ultimaEmision": "20 de mayo de 2018",
+      "primeraEmision": "1 de octubre de 2017",
+      "audienciaPromedio": 4.1
+    },
+    {
+      "notas": "Incluye 'Treehouse of Horror XXIX' y 'D’oh Canada'.",
+      "decada": "2010s",
+      "posicion": 126,
+      "episodios": 23,
+      "temporada": 30,
+      "descripcion": "Se exploran nuevas dinámicas familiares y experimentos visuales.",
+      "ultimaEmision": "12 de mayo de 2019",
+      "primeraEmision": "30 de septiembre de 2018",
+      "audienciaPromedio": 3.7
+    },
+    {
+      "notas": "Incluye 'The Hateful Eight-Year-Olds' y 'The Way of the Dog'.",
+      "decada": "2020s",
+      "posicion": 103,
+      "episodios": 22,
+      "temporada": 31,
+      "descripcion": "Temporada marcada por el inicio de la pandemia y emisión en Disney+.",
+      "ultimaEmision": "17 de mayo de 2020",
+      "primeraEmision": "29 de septiembre de 2019",
+      "audienciaPromedio": 3
+    },
+    {
+      "notas": "Incluye 'Podcast News' y 'Three Dreams Denied'.",
+      "decada": "2020s",
+      "posicion": 117,
+      "episodios": 22,
+      "temporada": 32,
+      "descripcion": "Episodios grabados en pandemia con animación remota.",
+      "ultimaEmision": "23 de mayo de 2021",
+      "primeraEmision": "27 de septiembre de 2020",
+      "audienciaPromedio": 2.4
+    },
+    {
+      "notas": "Incluye 'The Star of the Backstage' y 'Treehouse of Horror XXXII'.",
+      "decada": "2020s",
+      "posicion": 98,
+      "episodios": 22,
+      "temporada": 33,
+      "descripcion": "Se consolidan colaboraciones con Disney+ y nuevos estilos narrativos.",
+      "ultimaEmision": "22 de mayo de 2022",
+      "primeraEmision": "26 de septiembre de 2021",
+      "audienciaPromedio": 2.3
+    },
+    {
+      "notas": "Incluye 'Not It' y 'Lisa the Boy Scout'.",
+      "decada": "2020s",
+      "posicion": 98,
+      "episodios": 22,
+      "temporada": 34,
+      "descripcion": "Temporada con buena recepción crítica y enfoque más emocional.",
+      "ultimaEmision": "21 de mayo de 2023",
+      "primeraEmision": "25 de septiembre de 2022",
+      "audienciaPromedio": 2.1
+    },
+    {
+      "notas": "Solo 18 episodios fueron transmitidos en Fox.",
+      "decada": "2020s",
+      "posicion": 106,
+      "episodios": 18,
+      "temporada": 35,
+      "descripcion": "Temporada afectada por huelgas, emisión limitada.",
+      "ultimaEmision": "19 de mayo de 2024",
+      "primeraEmision": "1 de octubre de 2023",
+      "audienciaPromedio": 1.99
+    },
+    {
+      "notas": "Incluye episodios exclusivos en streaming.",
+      "decada": "2020s",
+      "posicion": 110,
+      "episodios": 22,
+      "temporada": 36,
+      "descripcion": "Temporada híbrida con emisión en Fox y Disney+.",
+      "ultimaEmision": "18 de mayo de 2025",
+      "primeraEmision": "29 de septiembre de 2024",
+      "audienciaPromedio": 1.8
+    },
+    {
+      "notas": "Primera temporada totalmente planificada bajo control de Disney.",
+      "decada": "2020s",
+      "posicion": 112,
+      "episodios": 17,
+      "temporada": 37,
+      "descripcion": "Temporada recién iniciada con enfoque en temas modernos.",
+      "ultimaEmision": "18 de mayo de 2026",
+      "primeraEmision": "28 de septiembre de 2025",
+      "audienciaPromedio": 1.7
+    }
+  ]
+}

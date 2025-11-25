@@ -1,35 +1,59 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useEffect, useState } from 'react';
+import { fetchData } from './services/api';
+import PersonajeCard from './componentes/PersonajeCard';
+import LugarCard from './componentes/LugarCard';
+import TemporadaCard from './componentes/TemporadaCard';
+import Pelicula from './componentes/Pelicula';
+import Creadores from './componentes/Creadores';
+import "./styles/style.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [personajes, setPersonajes] = useState([]);
+  const [lugares, setLugares] = useState([]);
+  const [temporadas, setTemporadas] = useState([]);
+  const [pelicula, setPelicula] = useState(null);
+  const [creadores, setCreadores] = useState(null);
+
+  useEffect(() => {
+    async function cargarDatos() {
+      const data = await fetchData();
+      setPersonajes(data.personajes || []);
+      setLugares(data.lugares || []);
+      setTemporadas(data.temporadas || []);
+      setPelicula(data.pelicula || null);
+      setCreadores(data.creadores || null);
+    }
+    cargarDatos();
+  }, []);
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="App">
+      <h1 className="text-center">Personajes</h1>
+      <div id="contenedorPersonajes">
+        {personajes.map(p => <PersonajeCard key={p.nombre} personaje={p} />)}
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+
+      <h1 className="text-center">Lugares</h1>
+      <div id="contenedorLugares">
+        {lugares.map(l => <LugarCard key={l.nombre} lugar={l} />)}
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+
+      <h1 className="text-center">Temporadas</h1>
+      <div id="contenedorTemporadas">
+        {temporadas.map(t => <TemporadaCard key={t.temporada} temporada={t} />)}
+      </div>
+
+      <h1 className="text-center">Película</h1>
+      <div id="contenedorPelicula">
+        <Pelicula pelicula={pelicula} />
+      </div>
+
+      <h1 className="text-center">Creadores</h1>
+      <div id="contenedorCreadores">
+        <Creadores creadores={creadores} />
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;

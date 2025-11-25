@@ -3,12 +3,21 @@ const app = express()
 const port = 3000
 const path = require('path')
 const cors = require('cors')
-const ROOT_FOLDER = 'dist'
+const fs = require('fs');
 require("dotenv").config();
 
-app.use(express.static(path.join(__dirname, ROOT_FOLDER)))
-app.use(cors())
 
+// Archivo donde guardaremos el JSON local
+const DATA_FILE = path.join(__dirname, 'data.json');
+
+// Carpeta donde está el build de Vite
+const ROOT_FOLDER = 'dist';
+
+// Middlewares
+app.use(cors());
+app.use(express.json());
+
+// CONFIG FIREBASE ADMIN
 const admin = require("firebase-admin");
 const serviceAccountPath = process.env.SERVICE_ACCOUNT_PATH;
 
@@ -19,6 +28,7 @@ admin.initializeApp({
   databaseURL: process.env.FIRESTORE_DB
 });
 
+//Obtenemos Firestore
 const { getFirestore } = require("firebase-admin/firestore");
 const db = getFirestore();
 
@@ -26,6 +36,10 @@ async function syncData() {
   try {
     const res = await fetch('https://api.npoint.io/9526d6d18453d5256fcd');
     const data = await res.json();
+
+
+    fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2), 'utf-8');
+    console.log('Datos guardados en JSON correctamente.')
 
     const personajesRef = db.collection('personajes');
     for (const p of data.personajes) {
@@ -85,13 +99,91 @@ async function syncData() {
   }
 }
 
-syncData();
-/*app.get('/', (req, res) => {
-    res.send('Hello World!')
-})*/
+//  ENDPOINTS
+function readJSON() {
+  if (fs.existsSync(DATA_FILE)) {
+    const raw = fs.readFileSync(DATA_FILE, 'utf-8');
+    return JSON.parse(raw);
+  }
+  return null;
+}
 
+app.get('/api/personajes', async (req, res) => {
+  try {
+    const jsonData = readJSON();
+    if (jsonData?.personajes) return res.json(jsonData.personajes);
+
+    // fallback a Firebase
+    const snapshot = await db.collection('personajes').get();
+    const personajes = snapshot.docs.map(doc => doc.data());
+    res.json(personajes);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.get('/api/lugares', async (req, res) => {
+  try {
+    const jsonData = readJSON();
+    if (jsonData?.lugares) return res.json(jsonData.lugares);
+
+    const snapshot = await db.collection('lugares').get();
+    const lugares = snapshot.docs.map(doc => doc.data());
+    res.json(lugares);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.get('/api/temporadas', async (req, res) => {
+  try {
+    const jsonData = readJSON();
+    if (jsonData?.temporadas) return res.json(jsonData.temporadas);
+
+    const snapshot = await db.collection('temporadas').get();
+    const temporadas = snapshot.docs.map(doc => doc.data());
+    res.json(temporadas);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.get('/api/peliculas', async (req, res) => {
+  try {
+    const jsonData = readJSON();
+    if (jsonData?.pelicula) return res.json(jsonData.pelicula);
+
+    const doc = await db.collection('peliculas').doc('principal').get();
+    if (!doc.exists) return res.status(404).json({ error: "No hay película" });
+    res.json(doc.data());
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.get('/api/creadores', async (req, res) => {
+  try {
+    const jsonData = readJSON();
+    if (jsonData?.creadores) return res.json(jsonData.creadores);
+
+    const doc = await db.collection('creadores').doc('principal').get();
+    if (!doc.exists) return res.status(404).json({ error: "No hay creadores" });
+    res.json(doc.data());
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.use(express.static(path.join(__dirname, ROOT_FOLDER)))
+
+
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+})
+  syncData();
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
+
 })
 

@@ -1,55 +1,55 @@
 {
   "lugares": [
     {
-      "img": "./assets/lugares/742_de_Evergreen_Terrace.jpg",
-      "nombre:": "742 de Evergreen Terrace"
+      "img": "./public/lugares/742_de_Evergreen_Terrace.jpg",
+      "nombre": "742 de Evergreen Terrace"
     },
     {
-      "img": "./assets/lugares/la_taberna_moe.jpg",
+      "img": "./public/lugares/la_taberna_moe.jpg",
       "nombre": "La Taberna de Moe"
     },
     {
-      "img": "./assets/lugares/la_planta_springfield.jpg",
+      "img": "./public/lugares/la_planta_springfield.jpg",
       "nombre": "La Planta Nuclear de Springfield"
     },
     {
-      "img": "./assets/lugares/la_escuela_Primaria_de_springfield.jpg",
+      "img": "./public/lugares/la_escuela_Primaria_de_springfield.jpg",
       "nombre": "La Escuela Primaria de Springfield"
     },
     {
-      "img": "./assets/lugares/kwik_e_mart.jpg",
+      "img": "./public/lugares/kwik_e_mart.jpg",
       "nombre": "Kwik-E-Mart"
     },
     {
-      "img": "./assets/lugares/la_mansión_del_sr_burns.jpg",
+      "img": "./public/lugares/la_mansión_del_sr_burns.jpg",
       "nombre": "La Mansión del Sr. Burns"
     },
     {
-      "img": "./assets/lugares/iglesia.jpg",
+      "img": "./public/lugares/iglesia.jpg",
       "nombre": "La Iglesia de Springfield"
     },
     {
-      "img": "./assets/lugares/ayuntamiento.jpg",
+      "img": "./public/lugares/ayuntamiento.jpg",
       "nombre": "El Ayuntamiento"
     },
     {
-      "img": "./assets/lugares/hospital.jpg",
+      "img": "./public/lugares/hospital.jpg",
       "nombre": "El Hospital de Springfield"
     },
     {
-      "img": "./assets/lugares/parque.jpg",
+      "img": "./public/lugares/parque.jpg",
       "nombre": "El Parque de Springfield"
     },
     {
-      "img": "./assets/lugares/estadio.jpg",
+      "img": "./public/lugares/estadio.jpg",
       "nombre": "El Estadio Duff"
     },
     {
-      "img": "./assets/lugares/asilo.jpg",
+      "img": "./public/lugares/asilo.jpg",
       "nombre": "La Casa del Abuelo"
     },
     {
-      "img": "./assets/lugares/krusty_burger.jpg",
+      "img": "./public/lugares/krusty_burger.jpg",
       "nombre": "krusty burger"
     }
   ],
@@ -150,7 +150,7 @@
       "James L. Brooks ganó múltiples premios Emmy como productor ejecutivo de la serie."
     ],
     "creadorPrincipal": {
-      "img": "./assets/creadores/matt_grening.jpg",
+      "img": "./public/creadores/matt_grening.jpg",
       "nombre": "Matt Groening",
       "profesion": [
         "Caricaturista",
@@ -172,7 +172,7 @@
     },
     "productoresPrincipales": [
       {
-        "img": "./assets/creadores/james_brooks.jpg",
+        "img": "./public/creadores/james_brooks.jpg",
         "nombre": "James L. Brooks",
         "profesion": [
           "Guionista",
@@ -209,7 +209,7 @@
         ]
       },
       {
-        "img": "./assets/creadores/ai_jean.jpeg",
+        "img": "./public/creadores/ai_jean.jpeg",
         "nombre": "Al Jean",
         "profesion": [
           "Guionista",
@@ -226,7 +226,7 @@
         ]
       },
       {
-        "img": "./assets/creadores/mike_reis.jpeg",
+        "img": "./public/creadores/mike_reis.jpeg",
         "nombre": "Mike Reiss",
         "profesion": [
           "Guionista",
@@ -243,7 +243,7 @@
         ]
       },
       {
-        "img": "./assets/creadores/david_silverman.jpg",
+        "img": "./public/creadores/david_silverman.jpg",
         "nombre": "David Silverman",
         "profesion": [
           "Animador",
@@ -269,7 +269,7 @@
   },
   "personajes": [
     {
-      "img": "./assets/personajes/homero.jpg",
+      "img": "./public/personajes/homero.jpg",
       "rol": "Padre de familia",
       "frases": [
         "¡D'oh!",
@@ -284,7 +284,7 @@
       "caracteristica": "Amante de la cerveza y las rosquillas"
     },
     {
-      "img": "./assets/personajes/marge.jpg",
+      "img": "./public/personajes/marge.jpg",
       "rol": "Madre de familia",
       "frases": [
         "Homero...",
@@ -296,7 +296,7 @@
       "caracteristica": "Cabello azul y gran paciencia"
     },
     {
-      "img": "./assets/personajes/bart.jpg",
+      "img": "./public/personajes/bart.jpg",
       "rol": "Hijo travieso",
       "frases": [
         "¡Ay caramba!",
@@ -309,7 +309,7 @@
       "caracteristica": "Amante del skate y las bromas"
     },
     {
-      "img": "./assets/personajes/lisa.jpg",
+      "img": "./public/personajes/lisa.jpg",
       "rol": "Hija inteligente",
       "frases": [
         "Si alguien me necesita, estaré en mi habitación.",
@@ -321,7 +321,7 @@
       "caracteristica": "Saxofonista y activista"
     },
     {
-      "img": "./assets/personajes/maggie.jpg",
+      "img": "./public/personajes/maggie.jpg",
       "rol": "Bebé",
       "frases": [
         "Papá",
@@ -335,7 +335,7 @@
       "caracteristica": "Siempre con su chupete"
     },
     {
-      "img": "./assets/personajes/ned.jpg",
+      "img": "./public/personajes/ned.jpg",
       "rol": "Vecino",
       "frases": [
         "¡Hola, vecinillo!",
@@ -350,7 +350,7 @@
       "caracteristica": "Excesivamente amable y religioso"
     },
     {
-      "img": "./assets/personajes/sr_burns.jpg",
+      "img": "./public/personajes/sr_burns.jpg",
       "rol": "Dueño de la planta nuclear",
       "frases": [
         "Excelente...",
@@ -360,7 +360,7 @@
       "caracteristica": "Extremadamente rico y malvado"
     },
     {
-      "img": "./assets/personajes/milhouse.jpg",
+      "img": "./public/personajes/milhouse.jpg",
       "rol": "Mejor amigo de Bart",
       "frases": [
         "¡Todo sale Milhouse!",
@@ -370,7 +370,7 @@
       "caracteristica": "Tímido y enamorado de Lisa"
     },
     {
-      "img": "./assets/personajes/moe.jpg",
+      "img": "./public/personajes/moe.jpg",
       "rol": "Cantinero",
       "frases": [
         "¡Barney, sal de ahí, eso no es una piscina, es la freidora!"
@@ -379,7 +379,7 @@
       "caracteristica": "Dueño de la Taberna de Moe, cascarrabias"
     },
     {
-      "img": "./assets/personajes/apu.jpg",
+      "img": "./public/personajes/apu.jpg",
       "rol": "Dependiente del Kwik-E-Mart",
       "frases": [
         "¡Gracias, vuelva prontos!",
@@ -389,7 +389,7 @@
       "caracteristica": "Conocido por la frase '¡Gracias, vuelva pronto!'"
     },
     {
-      "img": "./assets/personajes/krusty.jpg",
+      "img": "./public/personajes/krusty.jpg",
       "rol": "Payaso de televisión",
       "frases": [
         "¡Hey, hey, niños!",
@@ -399,7 +399,7 @@
       "caracteristica": "Famoso en Springfield, pero amargado fuera de cámaras"
     },
     {
-      "img": "./assets/personajes/ralph.jpg",
+      "img": "./public/personajes/ralph.jpg",
       "rol": "Compañero de Bart",
       "frases": [
         "Yo choqué el auto del autobús escolar.",
@@ -411,7 +411,7 @@
       "caracteristica": "Ingenuo y con frases inocentes"
     },
     {
-      "img": "./assets/personajes/gorgory.jpg",
+      "img": "./public/personajes/gorgory.jpg",
       "rol": "Jefe de policía",
       "frases": [
         "¡Vamos a almorzar, muchachos!",
@@ -425,7 +425,7 @@
       "caracteristica": "Torpe pero bonachón"
     },
     {
-      "img": "./assets/personajes/skinner.jpg",
+      "img": "./public/personajes/skinner.jpg",
       "rol": "Director de la Escuela Primaria",
       "frases": [
         "¡Patético!",
@@ -439,7 +439,7 @@
       "caracteristica": "Autoritario y reprimido por su madre"
     },
     {
-      "img": "./assets/personajes/edna.jpg",
+      "img": "./public/personajes/edna.jpg",
       "rol": "Maestra de Bart",
       "frases": [
         "¡Bart Simpson!",
@@ -453,7 +453,7 @@
       "caracteristica": "Sarcástica y fumadora empedernida"
     },
     {
-      "img": "./assets/personajes/abraham.jpg",
+      "img": "./public/personajes/abraham.jpg",
       "rol": "Abuelo",
       "frases": [
         "“¡En mi época…!",
@@ -468,7 +468,7 @@
       "caracteristica": "Viejo y lleno de historias interminables"
     },
     {
-      "img": "./assets/personajes/patty.jpg",
+      "img": "./public/personajes/patty.jpg",
       "rol": "Hermana de Marge",
       "frases": [
         "Homero es un cero a la izquierda, Marge.",
@@ -481,7 +481,7 @@
       "caracteristica": "Cínica y fumadora, poco fan de Homero"
     },
     {
-      "img": "./assets/personajes/selma.jpg",
+      "img": "./public/personajes/selma.jpg",
       "rol": "Hermana de Marge",
       "frases": [
         "Necesito un hombre… cualquiera que respire me sirve.",
@@ -495,7 +495,7 @@
       "caracteristica": "Similar a Patty, pero busca pareja constantemente"
     },
     {
-      "img": "./assets/personajes/smither.jpg",
+      "img": "./public/personajes/smither.jpg",
       "rol": "Asistente del Sr. Burns",
       "frases": [
         "Lo que usted diga, señor Burns.",
@@ -509,7 +509,7 @@
       "caracteristica": "Fiel, servicial y secretamente enamorado de su jefe"
     },
     {
-      "img": "./assets/personajes/barney.jpg",
+      "img": "./public/personajes/barney.jpg",
       "rol": "Amigo de Homero",
       "frases": [
         "¡Burp… otra cerveza, por favor!",
@@ -523,7 +523,7 @@
       "caracteristica": "Borracho habitual de la Taberna de Moe"
     },
     {
-      "img": "./assets/personajes/lenny.jpg",
+      "img": "./public/personajes/lenny.jpg",
       "rol": "Compañero de Homero en la Planta Nuclear",
       "frases": [
         "Carl, ¿me ayudas con esto?",
@@ -537,7 +537,7 @@
       "caracteristica": "Mejor amigo de Carl, ingenuo y simpático"
     },
     {
-      "img": "./assets/personajes/carl.jpg",
+      "img": "./public/personajes/carl.jpg",
       "rol": "Compañero de Homero en la Planta Nuclear",
       "frases": [
         "Tranquilo, Lenny, todo bajo control.",
@@ -551,7 +551,7 @@
       "caracteristica": "Mejor amigo de Lenny, más racional"
     },
     {
-      "img": "./assets/personajes/otto.jpg",
+      "img": "./public/personajes/otto.jpg",
       "rol": "Conductor del autobús escolar",
       "frases": [
         "¡Vamos a rockear, chicos!",
@@ -565,7 +565,7 @@
       "caracteristica": "Fanático del rock y relajado"
     },
     {
-      "img": "./assets/personajes/nelson.jpg",
+      "img": "./public/personajes/nelson.jpg",
       "rol": "Matón de la escuela",
       "frases": [
         "¡Ja ja",
@@ -579,7 +579,7 @@
       "caracteristica": "Famoso por su risa burlona '¡Ja ja!'"
     },
     {
-      "img": "./assets/personajes/jimbo.jpg",
+      "img": "./public/personajes/jimbo.jpg",
       "rol": "Matón de la escuela",
       "frases": [
         "¡Oye, Simpson, prepárate!",
@@ -593,7 +593,7 @@
       "caracteristica": "Siempre con gorro y en pandilla"
     },
     {
-      "img": "./assets/personajes/willie.jpg",
+      "img": "./public/personajes/willie.jpg",
       "rol": "Conserje de la escuela",
       "frases": [
         "¡Malditos niños traviesos!",
@@ -607,7 +607,7 @@
       "caracteristica": "Escocés fuerte y temperamental"
     },
     {
-      "img": "./assets/personajes/alienigenas.jpg",
+      "img": "./public/personajes/alienigenas.jpg",
       "rol": "Alienígenas",
       "frases": [
         "¡Invadiremos la Tierra!",
@@ -621,7 +621,7 @@
       "caracteristica": "Aparecen en episodios especiales de Halloween"
     },
     {
-      "img": "./assets/personajes/lionel.jpg",
+      "img": "./public/personajes/lionel.jpg",
       "rol": "Abogado",
       "frases": [
         "Yo podría estar equivocado, pero si lo estoy, ¿no sería la primera vez que alguien gana un juicio estando equivocado?",
@@ -632,7 +632,7 @@
       "caracteristica": "Inepto, corrupto y muy cómico"
     },
     {
-      "img": "./assets/personajes/Hibbert.jpg",
+      "img": "./public/personajes/Hibbert.jpg",
       "rol": "Médico de Springfield",
       "frases": [
         "Je, je, je… bueno, al menos no está muerto. Todavía.",
@@ -644,7 +644,7 @@
       "caracteristica": "Siempre se ríe en situaciones inapropiadas"
     },
     {
-      "img": "./assets/personajes/dorctor_nick.jpg",
+      "img": "./public/personajes/dorctor_nick.jpg",
       "rol": "Médico incompetente",
       "frases": [
         "¡Hola, doctor Nick!",
@@ -657,7 +657,7 @@
       "caracteristica": "Conocido por su saludo '¡Hola, doctor Nick!'"
     },
     {
-      "img": "./assets/personajes/kent.jpg",
+      "img": "./public/personajes/kent.jpg",
       "rol": "Presentador de noticias",
       "frases": [
         "Y así es como terminó el mundo… con un bostezo, no con una explosión.",
@@ -666,6 +666,15 @@
       ],
       "nombre": "Kent Brockman",
       "caracteristica": "Periodista sensacionalista"
+    },
+    {
+      "nombre": "Bob ",
+      "rol": "Villano",
+      "caracteristica": "pelirojo",
+      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/AV5BY5VHTBHFFF7CKBQ3AHR35A.jpg",
+      "frases": [
+        "te odio bart"
+      ]
     }
   ],
   "temporadas": [

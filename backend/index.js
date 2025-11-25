@@ -174,41 +174,35 @@ app.get('/api/creadores', async (req, res) => {
   }
 });
 
-// POST para agregar un personaje al JSON y Firebase
 app.post('/api/personajes', async (req, res) => {
   try {
     const nuevo = req.body;
 
-    //Validación simple
-    if (!nuevo.nombre || nuevo.nombre.trim() === "") {
-      return res.status(400).json({ error: "El personaje debe tener nombre" });
+    // Validación simple
+    if (!nuevo.nombre || !nuevo.rol || !nuevo.caracteristica || !nuevo.img) {
+      return res.status(400).json({ error: "Todos los campos obligatorios deben completarse" });
     }
 
-    //LEER JSON ACTUAL
-    const jsonData = readJSON();
+    // Leer JSON actual o inicializar
+    let jsonData = readJSON() || {};
     if (!jsonData.personajes) jsonData.personajes = [];
 
-    //AGREGAR AL JSON
+    // Agregar al JSON
     jsonData.personajes.push(nuevo);
-
     fs.writeFileSync(DATA_FILE, JSON.stringify(jsonData, null, 2), 'utf-8');
 
-    //AGREGAR A FIREBASE
+    // Agregar a Firebase (genera doc automáticamente para evitar sobrescribir)
     const personajesRef = db.collection('personajes');
-    await personajesRef.doc(nuevo.nombre).set(nuevo);
+    await personajesRef.add(nuevo);
 
-    //RESPUESTA
-    res.json({
-      mensaje: "Personaje agregado correctamente",
-      data: nuevo
-    });
+    // Respuesta
+    res.json({ mensaje: "Personaje agregado correctamente", data: nuevo });
 
   } catch (error) {
     console.error("Error agregando personaje:", error);
     res.status(500).json({ error: "Error al agregar personaje" });
   }
 });
-
 
 
 // Static del frontend AL FINAL

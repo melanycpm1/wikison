@@ -5,6 +5,7 @@ import LugarCard from './componentes/LugarCard';
 import TemporadaCard from './componentes/TemporadaCard';
 import Pelicula from './componentes/Pelicula';
 import Creadores from './componentes/Creadores';
+import FormPersonaje from "./componentes/FormPersonaje";
 import "./styles/style.css";
 
 function App() {
@@ -13,6 +14,18 @@ function App() {
   const [temporadas, setTemporadas] = useState([]);
   const [pelicula, setPelicula] = useState(null);
   const [creadores, setCreadores] = useState(null);
+
+
+  const fetchPersonajes = async () => {
+    try {
+      const res = await fetch("http://localhost:3000/api/personajes");
+      const data = await res.json();
+      setPersonajes(data);
+    } catch (err) {
+      console.error("Error cargando personajes:", err);
+    }
+  };
+
 
   useEffect(() => {
     async function cargarDatos() {
@@ -25,9 +38,18 @@ function App() {
     }
     cargarDatos();
   }, []);
+  useEffect(() => {
+    fetchPersonajes();
+  }, []);
 
+  const handlePersonajeAgregado = (nuevo) => {
+    setPersonajes([...personajes, nuevo]);
+  };
   return (
     <div className="App">
+      <h2 className='text-center'>Agregar Personaje</h2>
+      <FormPersonaje onPersonajeAgregado={handlePersonajeAgregado} />
+
       <h1 className="text-center">Personajes</h1>
       <div id="contenedorPersonajes">
         {personajes.map(p => <PersonajeCard key={p.nombre} personaje={p} />)}
